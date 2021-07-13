@@ -109,14 +109,14 @@
       }
     }
 
-    @media (min-width: 414px) and (max-width: 767px) {
+    @media (min-width: 501px) and (max-width: 767px) {
 
       #main {
         height: auto;
       }
 
       .card {
-        width: 60%;
+        width: 80%;
         height: auto;
         flex-wrap: wrap;
         margin: 60px 0;
@@ -154,7 +154,7 @@
 
     }
 
-    @media (max-width: 414px) {
+    @media (max-width: 500px) {
 
       #main {
         height: auto;
