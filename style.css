@@ -89,17 +89,45 @@
     }
 
     /* ----------------------------------------------------- */
-    /*                           Media Query                 */
+    /*                       Media Query                     */
     /* ----------------------------------------------------- */
 
-    @media (min-width: 768px) and (max-width: 1140px) {
+    /* @media (max-width:736px) and (orientation: landscape) {
+      .card{
+        height: 80vh;
+      }
+    } */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
       .card {
         width: 90%;
+        height: 80vh;
       }
 
       h1 {
-        font-size: 180%;
+        font-size: 150%;
+      }
+
+      .stats {
+        margin-top: 25px;
+      }
+    }
+
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+      .card {
+        width: 80%;
+        height: 35vh;
+      }
+
+      h1 {
+        font-size: 150%;
+      }
+
+      .stats {
+        margin-top: 25px;
       }
     }
 
@@ -110,7 +138,7 @@
       }
 
       .card {
-        width: 80%;
+        width: 60%;
         height: auto;
         flex-wrap: wrap;
         margin: 60px 0;
@@ -124,13 +152,13 @@
       }
 
       h1 {
-        font-size: 200%;
+        font-size: 220%;
       }
 
       .image {
         order: 1;
         width: 100%;
-        height: 55vh;
+        height: 80vh;
         background-image: linear-gradient(hsla(277, 100%, 29%, 0.5), hsla(277, 100%, 29%, 0.5)), url('images/image-header-mobile.jpg');
         background-repeat: no-repeat;
       }
@@ -169,7 +197,7 @@
       }
 
       h1 {
-        font-size: 200%;
+        font-size: 185%;
       }
 
       .image {
